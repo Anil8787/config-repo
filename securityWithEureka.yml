@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: securityWithEureka
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/eurekadb
+    username: root
+    password: Anil@5454
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
